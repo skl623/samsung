@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/*헤더*/
+#header {
+    height: 80px;
+    line-height: 80px; 
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+
+#header h1{
+    float: left;
+    
+}
+
+.gnb{
+    float: left;
+    font-size: 14px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.gnb li{
+    float: left;
+    margin-right: 30px;
+}
+
+.gnb li a{
+    
+}
+
+/*서브메뉴*/
+.lnb {
+    position: absolute;
+    z-index: 1;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    display: none;
+}
+.lnb li:hover a {
+    color: #007cc0;
+}
+
+/*호버*/
+
+.gnb li:hover .lnb{
+    display: block;
+}
+
+
+
+
+/*메뉴*/
+
+.langMenu{
+    float: right;
+    font-size: 12px;
+}
+
+.langMenu li{
+    float: left;
+    margin-left: 10px;
+}
+
+.langMenu li a{
+    
+}
+.langMenu .on a{
+    color: #007cc0;
+    font-weight: bold;
+}
+
+/*푸터*/
+
+#footer {
+    border-top: 1px solid #eee;
+    padding: 30px 0;
+}
+
+.fLogo {
+    float: left;
+    line-height: 54px;
+}
+.fLogo img{}
+
+.fInfo {
+    font-size: 11px;
+    letter-spacing: -1px;
+    color: #ccc;
+    float: left;
+    margin-left: 30px;
+}
+
+.fMenu {
+    margin-bottom: 10px;
+}
+.fMenu li{
+    float: left;
+}
+
+.fMenu li::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    background: #ccc;
+    margin: 0 5px;
+}
+.fMenu li:last-child::after {
+    display: none;
+}
+.fMenu li a{
+    color: #ccc;
+}
+
+.fInfo p {}
+
+.waMark {
+    float: right;
+}
+.waMark a {}
+.waMark img {}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/*mainSlider*/
+
+.mainSlider {
+    position: relative;
+}
+
+.mainSlider img {
+    width: 100%;
+    display: block;
+}
+
+.sliderBtn {
+    position: absolute;
+    bottom: 0;
+}
+
+.sliderBtn li{
+    float: left;
+    text-indent: -9999px;
+}
+
+.sliderBtn li a{
+    display: block;
+    height: 100%;
+}
+
+.sliderLBtn {
+    left: 10px;
+    bottom: 10px;
+}
+
+.sliderLBtn li{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url(../images/main/blet_visual.png) no-repeat;
+}
+
+.sliderLBtn li:first-child {
+    background-position: 0 -16px;
+}
+
+.sliderRBtn {
+    right: 0;
+}
+
+.sliderRBtn li{
+    width: 45px;
+    height: 45px;
+    background: url(../images/main/btn_visual_cnt.png) no-repeat;
+    margin-left: 1px;
+}
+
+.sliderRBtn li:nth-child(2) {
+    background-position: -46px 0;
+}
+
+.sliderRBtn li:last-child {
+    background-position: -92px 0;
+}
+
+
+/*mainCon01*/
+
+.mainCon01 {}
+
+.mainCon01 h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mainCon01 h2 img{
+    width: 35%;
+}
+
+.con01List {}
+
+.con01List li{
+    background: url(../images/main/brandSite_img01.jpg)no-repeat center center;
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+.con01List li:nth-child(2) {
+    background-image: url(../images/main/brandSite_img02.jpg);
+}
+
+.con01List li:last-child {
+    background-image: url(../images/main/brandSite_img03.jpg);
+}
+
+.con01List li a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+.con01List li h3{
+    font-size: 25px;
+    font-weight: normal;
+    padding-top: 30%;
+}
+
+
+/*mainCon02*/
+
+.mainCon02 li {
+    width: calc(50% - 1px);
+    margin-right: 2px;
+    float: left;
+    background: #1c97fe;
+    margin-bottom: 2px;
+}
+
+.mainCon02 li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.mainCon02 li img {
+    width: 100%;
+}
+
+.con02Info {
+    color: #fff;
+    word-break: keep-all;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.con02Info h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*mainCon03*/
+
+.mainCon03 {}
+.mainCon03 h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+.mainCon03 h2 img{
+    margin-top: 20px;
+    width: 45%;
+}
+
+.con03List {}
+
+.con03List a {
+    display: flex;
+}
+
+.con03List:nth-child(2n) a {
+    flex-direction: row-reverse;
+}
+
+.con03List a>div {
+    width: 50%;
+}
+
+.con03Img {
+    position: relative;
+}
+
+.con03Img img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    /*사방중앙정렬*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.con03Txt {
+    background: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.con03Txt h3{}
+
+.con03Txt p {
+    font-size: 11px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+

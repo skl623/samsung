@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dd {
+    margin: 0;
+}
+
+body {
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+cf::after {
+    content: "";
+    display: block;
+    clear: both;
+}
